@@ -10,6 +10,7 @@ export default function AboutPage() {
       <Typography color="text.secondary">
       Este sistema permite gestionar productos y realizar cálculos básicos como valor total, IVA y descuentos. En la sección “Productos”, se consume una API pública de Dragon Ball que incluye imágenes en el campo image.
       </Typography>
+      
 
     </Paper>
   );
