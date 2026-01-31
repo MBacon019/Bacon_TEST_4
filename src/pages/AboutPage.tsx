@@ -1,6 +1,6 @@
 import { Paper, Typography } from "@mui/material";
 
-export default function InformacionPage() {
+export default function AboutPage() {
   return (
     <Paper sx={{ p: 3, borderRadius: 3 }}>
       <Typography variant="h5" fontWeight={900} gutterBottom>
@@ -8,17 +8,9 @@ export default function InformacionPage() {
       </Typography>
 
       <Typography color="text.secondary">
-        Este sistema permite gestionar productos y realizar cálculos básicos como valor total, 
-        IVA y descuentos.En la sección “Productos”, se consume una API pública de Dragon Ball que incluye imágenes en el campo
+      Este sistema permite gestionar productos y realizar cálculos básicos como valor total, IVA y descuentos. En la sección “Productos”, se consume una API pública de Dragon Ball que incluye imágenes en el campo image.
       </Typography>
 
-      <Typography sx={{ mt: 2 }}>
-        
-      </Typography>
-
-      <Typography variant="body2" sx={{ mt: 3, textAlign: 'center', color: 'text.disabled' }}>
-        © 2025 - Sistema de Productos - Taller Académico
-      </Typography>
     </Paper>
   );
 }
